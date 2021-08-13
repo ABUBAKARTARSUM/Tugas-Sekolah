@@ -1,0 +1,43 @@
+header p {
+  font-size: larger;
+  color: white;
+}
+form .container {
+  background-color: rgb(46, 41, 41);
+  color: white;
+  border-radius: 7px;
+}
+body,
+html {
+  background: linear-gradient(90deg, rgb(50, 50, 143), rgb(81, 99, 143));
+}
+header {
+  padding-top: 4rem;
+}
+.nav-item {
+  margin-right: 1em;
+}
+.navbar-brand {
+  /* font-family: 'Oleo Script', cursive; */
+  font-family: 'Anton', sans-serif;
+  background: linear-gradient(to right, #df447f, #46e0ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-link {
+  font-family: 'Signika', sans-serif;
+}
+/* Desktop Version */
+@media (min-width: 992px) {
+  .active::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0091ad;
+    border-radius: 1.5px;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 4px;
+    margin-bottom: -7px;
+    transition: all 1.4s;
+  }
+}

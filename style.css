@@ -1,0 +1,132 @@
+body {
+  background: linear-gradient(to right, #b7094c, #5c4d7d);
+}
+/* Desktop Version */
+@media (min-width: 992px) {
+  .active::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0091ad;
+    border-radius: 1.5px;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 4px;
+    margin-bottom: -7px;
+    transition: all 1.4s;
+  }
+}
+.nav-item {
+  margin-right: 1em;
+}
+.navbar-brand {
+  /* font-family: 'Oleo Script', cursive; */
+  font-family: 'Anton', sans-serif;
+  background: linear-gradient(to right, #df447f, #46e0ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-link {
+  font-family: 'Signika', sans-serif;
+}
+section.jumbotron {
+  padding-top: 7rem;
+  background: linear-gradient(to right, #b7094c, #5c4d7d);
+  padding-bottom: 4rem;
+}
+section.jumbotron img {
+  border-radius: 12px;
+}
+h2.title {
+  font-family: 'Fredoka One', cursive;
+  color: rgb(243, 157, 76);
+}
+h2.about {
+  /* font-family: 'Secular One', sans-serif; */
+  font-family: 'Alfa Slab One', cursive;
+}
+hr {
+  border-bottom: 3px solid black;
+}
+section#about img {
+  border-radius: 10px;
+  /* box-shadow: 4px 4px 4px lightslategrey; */
+}
+div.progress-bar {
+  background: linear-gradient(to right, #5c4d7d, #455e89);
+}
+div.progress {
+  box-shadow: 3px 3px 0px rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+h2 {
+  font-family: 'Oleo Script', cursive;
+}
+p {
+  font-family: 'Pridi', serif;
+}
+section#about {
+  padding-top: 4rem;
+}
+section#progress {
+  background: linear-gradient(to right, #b7094c, #5c4d7d);
+  padding-bottom: 4rem;
+  padding-top: 1rem;
+}
+section#about {
+  padding-bottom: 2rem;
+}
+/* style footer */
+#follow ul {
+  list-style-type: none;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+section#follow {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+}
+#follow h2 {
+  text-align: center;
+  color: white;
+}
+#follow li {
+  font-size: 2em;
+  margin: 0 10px;
+}
+h2.follow {
+  font-family: 'Alfa Slab One', cursive;
+  background: linear-gradient(to right, #d3a715, #79ad00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* large tablet */
+@media (min-width: 1024px) {
+  section#follow {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    /* margin-top: 2.5rem; */
+  }
+}
+/* style untuk gambar */
+img {
+  max-width: 100%;
+}
+.gallery {
+  border-radius: 12px;
+}
+.gallery img {
+  background-color: #ffffff;
+  width: 100%;
+  box-shadow: 3px 3px 3px rgb(0, 0, 0);
+  cursor: pointer;
+}
+#gallery-modal .modal-img {
+  width: 100%;
+}
+section#about {
+  background-color: white;
+}
