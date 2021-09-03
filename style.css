@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to right, #b7094c, #5c4d7d);
+  background: #b5c99a;
 }
 /* Desktop Version */
 @media (min-width: 992px) {
@@ -21,7 +21,7 @@ body {
 .navbar-brand {
   /* font-family: 'Oleo Script', cursive; */
   font-family: 'Anton', sans-serif;
-  background: linear-gradient(to right, #df447f, #46e0ff);
+  background: linear-gradient(to right, #b5c99a, #97a97c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -30,7 +30,7 @@ body {
 }
 section.jumbotron {
   padding-top: 7rem;
-  background: linear-gradient(to right, #b7094c, #5c4d7d);
+  background: #718355;
   padding-bottom: 4rem;
 }
 section.jumbotron img {
@@ -38,7 +38,7 @@ section.jumbotron img {
 }
 h2.title {
   font-family: 'Fredoka One', cursive;
-  color: rgb(243, 157, 76);
+  color: rgb(48, 48, 48);
 }
 h2.about {
   /* font-family: 'Secular One', sans-serif; */
@@ -68,7 +68,7 @@ section#about {
   padding-top: 4rem;
 }
 section#progress {
-  background: linear-gradient(to right, #b7094c, #5c4d7d);
+  background: #718355;
   padding-bottom: 4rem;
   padding-top: 1rem;
 }
@@ -90,7 +90,7 @@ section#follow {
 }
 #follow h2 {
   text-align: center;
-  color: white;
+  color: rgb(223, 223, 223);
 }
 #follow li {
   font-size: 2em;
